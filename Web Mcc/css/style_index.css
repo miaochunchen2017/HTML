@@ -1,0 +1,17 @@
+body{
+
+}
+
+#div_container_main{
+	margin: 0 40px 50px 40px;
+}
+
+
+
+#div_footer{
+	text-align: center;
+}
+
+#div_footer hr{
+	color: red;
+}
