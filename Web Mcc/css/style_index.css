@@ -12,8 +12,11 @@ body{
 
 .div_taste{
 	text-align: center;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	/*将正文块背景设置为一个个灰方块*/
+	/*background-color:darkgray;*/
+    /*color:white;*/
+    margin:20px;
+    padding:20px;
 }
 
 .taste_start{
@@ -25,6 +28,15 @@ body{
 .taste_over{
 	border-color: blue;
 	border-width: thin;
+}
+
+#ol_mao{
+	padding: 0;
+	list-style: none;
+}
+
+#ol_mao li{
+	text-align: center;
 }
 
 #div_footer{

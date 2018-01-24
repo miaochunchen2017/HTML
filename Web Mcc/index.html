@@ -17,14 +17,14 @@
 
 		<div id="div_container_main">
 
-			<div class="div_taste">
+			<div class="div_taste" id="taste_1">
 				<h3 class="container_main_h3">《 使用两个"title"属性，添加额外显示信息 》</h3>
 				<hr class="taste_start" />
 				<p id="web_title" title="额外的信息">鼠标移上来显示额外信息。</p>
 			</div>
 			<hr class="taste_over" />
 
-			<div class="div_taste">
+			<div class="div_taste" id="taste_2">
 				<h3 class="container_main_h3">《 标题尺寸以及字体大小 》</h3>
 				<hr class="taste_start" />
 				<h1>这是h1标题。</h1>
@@ -42,7 +42,7 @@
 			</div>
 			<hr class="taste_over" />
 
-			<div class="div_taste">
+			<div class="div_taste" id="taste_3">
 				<h3 class="container_main_h3">《 在一个段落中实现换行 》</h3>
 				<hr class="taste_start" />
 				<h3>两个段落用两个"&lt;p&gt;&lt;/p&gt;"</h3>
@@ -54,30 +54,47 @@
 			</div>
 			<hr class="taste_over" />
 
-			<div class="div_taste">
+			<div class="div_taste" id="taste_4">
 				<h3 class="container_main_h3">《 HTML链接 》</h3>
 				<hr class="taste_start" />
-				<a href="www.baidu.com.cn" title="不知道答案？百度一下告诉你！">百度一下</a>
+				<a href="http://www.baidu.com.cn" title="不知道答案？百度一下告诉你！" target="_blank">百度一下</a>
 			</div>
 			<hr class="taste_over" />
 
-			<div class="div_taste">
+			<div class="div_taste" id="taste_5">
 				<h3 class="container_main_h3">《 点击切换图片状态 》</h3>
 				<hr class="taste_start" />
+				<!--调用function turnOnTheBulb()，控制灯泡开关-->
 				<img id="img_turnOnTheBulb" onclick="turnOnTheBulb()" src="img/pic_bulboff.gif" align="center" />
 				<br />
 				<b>点击灯泡 → 点亮/熄灭。</b>
 			</div>
 			<hr class="taste_over" />
 
-			<div class="div_taste">
-				<h3 class="container_main_h3">《  》</h3>
+			<div class="div_taste" id="taste_6" style="width: 100%;margin: 30px auto;">
+				<h3 class="container_main_h3">《 进行锚跳转 》</h3>
 				<hr class="taste_start" />
-
+				<ol id="ol_mao">
+					<li>
+						<a href="#taste_1">跳转到第一个练习实例</a>
+					</li>
+					<li>
+						<a href="#taste_2">跳转到第二个练习实例</a>
+					</li>
+					<li>
+						<a href="#taste_3">跳转到第三个练习实例</a>
+					</li>
+					<li>
+						<a href="#taste_4">跳转到第四个练习实例</a>
+					</li>
+					<li>
+						<a href="#taste_5">跳转到第五个练习实例</a>
+					</li>
+				</ol>
 			</div>
 			<hr class="taste_over" />
 
-			<div class="div_taste">
+			<div class="div_taste" id="taste_7">
 				<h3 class="container_main_h3">《  》</h3>
 				<hr class="taste_start" />
 
@@ -88,7 +105,7 @@
 		<div id="div_footer">
 			<hr/>
 			<h1>这是页面的footer</h1>
-		</div>>
+		</div>
 
 	</body>
 
