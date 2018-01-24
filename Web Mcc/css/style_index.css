@@ -6,7 +6,26 @@ body{
 	margin: 0 40px 50px 40px;
 }
 
+.container_main_h3{
+	text-align: center;
+}
 
+.div_taste{
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.taste_start{
+	margin-left: 300px;
+	margin-right: 300px;
+	border-color: gold;
+}
+
+.taste_over{
+	border-color: blue;
+	border-width: thin;
+}
 
 #div_footer{
 	text-align: center;
