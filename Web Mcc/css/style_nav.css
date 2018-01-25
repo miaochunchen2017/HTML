@@ -1,0 +1,24 @@
+#nav_div_body{
+	width: 240px;
+	overflow-x: hidden;
+	margin: 2px;
+	border: dashed 1px gray;
+}
+
+.div_nav{
+	float: left;
+}
+
+.nav_main_h3{
+	text-align: center;
+}
+
+.taste_start{
+	border-color: gold;
+	margin: 10px;
+}
+
+#ol_mao li a{
+	text-decoration: none;
+	color: black;
+}
