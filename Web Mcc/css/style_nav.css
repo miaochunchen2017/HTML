@@ -18,6 +18,10 @@
 	margin: 10px;
 }
 
+#ol_mao{
+	padding-left: 45px;
+}
+
 #ol_mao li a{
 	text-decoration: none;
 	color: black;
