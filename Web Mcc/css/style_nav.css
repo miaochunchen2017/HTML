@@ -22,6 +22,10 @@
 	padding-left: 45px;
 }
 
+#ol_mao li{
+	margin: 10px auto;
+}
+
 #ol_mao li a{
 	text-decoration: none;
 	color: black;
